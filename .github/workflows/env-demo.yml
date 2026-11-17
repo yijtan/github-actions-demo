@@ -7,7 +7,7 @@ env:
 
 jobs:
   print-greeting:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Print greeting
-      run: echo "${{ env.GREETING }}, World!"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "${{ env.GREETING }}, World!"
